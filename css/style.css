@@ -8375,19 +8375,23 @@ h1, h2, h3, h4, h5,
     width: 40px;
     height: 40px;
     content: '';
-    background: #3e64ff;
+    /*background: #3e64ff;*/
+    background-color: #fd9d1d;
     z-index: -1;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%; }
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    border-radius: 25%; 
+  transform: rotate(45deg) translateY(-52%) translateX(-20%);}
   .navbar-brand span {
     color: #fff; }
 
 .hero-wrap {
+      background: url(../images/bg.jpg);
+    background-position: center;
   width: 100%;
   height: 100%;
   position: inherit;
@@ -8408,9 +8412,10 @@ h1, h2, h3, h4, h5,
 
 .slider-text .subheading {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 800;
-  color: #3e64ff;
+  /*color: #3e64ff;*/
+  color: #fd9d1d;
   letter-spacing: 4px; }
 
 .slider-text h1 {
@@ -8423,7 +8428,7 @@ h1, h2, h3, h4, h5,
 .slider-text h2 {
   font-weight: 800; }
   .slider-text h2 span {
-    color: #3e64ff;
+    color: #fd9d1d;
     text-decoration: underline; }
 
 .slider-text p {
@@ -8466,8 +8471,10 @@ h1, h2, h3, h4, h5,
   z-index: 2; }
 
 .mouse-icon {
-  width: 70px;
-  height: 70px;
+  /*width: 70px;
+  height: 70px;*/
+  width: 85px;
+    height: 85px;
   border: 1px solid transparent;
   cursor: pointer;
   position: relative;
@@ -8475,17 +8482,20 @@ h1, h2, h3, h4, h5,
   margin: 0 auto;
   display: block; }
   .mouse-icon:after {
+    border-radius: 25%;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     content: '';
-    background: #edf0ff;
+   /* background: #edf0ff;*/
     z-index: -1;
-    -webkit-transform: rotate(45deg);
+    /*-webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    transform: rotate(45deg); }
+    transform: rotate(45deg);*/
+        background-image: url(../images/mouse.png);
+    background-size: contain; }
 
 .mouse-wheel {
   height: 70px;
@@ -8500,7 +8510,8 @@ h1, h2, h3, h4, h5,
   -webkit-animation: 1.6s ease infinite wheel-up-down;
   -moz-animation: 1.6s ease infinite wheel-up-down;
   animation: 1.6s ease infinite wheel-up-down;
-  color: #3e64ff;
+  /*color: #3e64ff;*/
+  color: #fd9d1d;
   font-size: 30px; }
 
 @-webkit-keyframes wheel-up-down {
