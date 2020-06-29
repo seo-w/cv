@@ -9657,8 +9657,14 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
-.col-md-12 .project.img {
-    height: 120px;
+.portfolio.col-md-12 .project {
+    height: 120px !important;
+}
+
+.portfolio.col-md-12  .project .overlay, .portfolio.col-md-12 .project .text {
+
+    opacity: 1;
+
 }
 .img {
     cursor: pointer;
