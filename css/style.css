@@ -8418,7 +8418,9 @@ h1, h2, h3, h4, h5,
   font-weight: 800;
   /*color: #fd9d1d;*/
   color: #fd9d1d;
-  letter-spacing: 4px; background-color: rgba(255, 255, 255, 0.7); }
+  letter-spacing: 4px; 
+  background-color: rgba(255, 255, 255, 0.6);
+    padding: 3px 8px; }
 
 .slider-text h1 {
   font-size: 60px;
